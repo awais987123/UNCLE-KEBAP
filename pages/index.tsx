@@ -2,7 +2,6 @@ import { PostCard,  PostWidget } from '../components';
 import { getPosts } from '../services';
 import FeaturedPosts from '../sections/FeaturedPosts';
 import Head from 'next/head';
-import { Categories } from '../components';
 export default function Home({ posts }:{posts:any}) {
   return (
     
